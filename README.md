@@ -13,11 +13,20 @@ gem install aria_sdk
 
 ###REST API
 
+The SDK has three classes for the Aria Systems APIs AriaCoreRestClient, AriaAdmintoolsRestClient, and AriaObjectQueryRestClient. To use one instantiate it with a client no and auth key then use the call method with the method name and parameters.
+
 ```ruby
 api = AriaCoreRestClient.new(CLIENT_NO, AUTH_KEY)
 
 puts api.call('get_client_currencies')
 ```
+
+```ruby
+api = AriaCoreRestClient.new(CLIENT_NO, AUTH_KEY)
+
+puts api.call('get_plans_by_promo_code', { :promo_code => '63EUEBRFPNRUC5W2NC6RFACTMB5NV' })
+```
+
 
 ###SOAP API
 
