@@ -30,6 +30,14 @@ puts api.call('get_plans_by_promo_code', { :promo_code => '63EUEBRFPNRUC5W2NC6RF
 
 ###SOAP API
 
+You can use the `AriaCoreSoapClient` class to access Aria Systems Core SOAP API similar to the REST APIs, but you must pass a version number as well. 
+
+```ruby
+api = AriaCoreSoapClient.new(CLIENT_NO, AUTH_KEY, '6.19')
+
+response = api.call('get_client_countries')
+```
+
 ##More Information
 
 Check out [Aria Developer Central](http://developer.ariasystems.net) for more examples, details, and support on [Aria](http://www.ariasystems.com/) services and features.
