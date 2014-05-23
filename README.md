@@ -1,7 +1,7 @@
 Aria Systems Ruby SDK
 ============
 
-The Aria Systems Ruby SDK supports Aria Systems' Core, Object Query, and AdminTools REST APIs. It is a simple way to integrate your Ruby application with Aria Systems billing solutions.
+The Aria Systems Ruby SDK supports Aria Systems' SOAP and REST APIs. It is a simple way to integrate your Ruby application with Aria Systems billing solutions.
 
 ##Installation
 
