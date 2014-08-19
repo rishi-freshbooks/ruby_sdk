@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.files       = Dir["lib/**/*.rb"]
   s.homepage    = 'https://developer.ariasystems.net/'
 
-  s.add_dependency "httparty"
-  s.add_dependency "savon"
-  s.add_dependency "json"
+  s.add_dependency "httparty", "~> 0.13"
+  s.add_dependency "savon", "~> 2.5"
+  s.add_dependency "json", "~> 1.8"
 
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", "~> 0"
 end
