@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'aria_sdk'
-  s.version     = '0.2.2'
-  s.date        = '2014-04-22'
+  s.version     = '0.2.3'
+  s.date        = '2014-10-14'
   s.summary     = "A wrapper for the Aria Systems REST and SOAP APIs"
   s.description = "A set of objects to help connect with the Aria Systems REST and SOAP Core, Object Query, and Admintools APIs."
   s.authors     = ["Aria Systems, Inc."]
