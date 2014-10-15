@@ -1,7 +1,7 @@
 Aria Systems Ruby SDK
 ============
 
-The Aria Systems Ruby SDK supports Aria Systems' SOAP and REST APIs. It is a simple way to integrate your Ruby application with Aria Systems billing solutions.
+The Aria Systems Ruby SDK supports the Aria Systems SOAP and REST APIs. It is a simple way to integrate your Ruby application with Aria Systems billing solutions.
 
 ##Installation
 
@@ -30,7 +30,7 @@ puts api.call('get_plans_by_promo_code', { :promo_code => '63EUEBRFPNRUC5W2NC6RF
 
 ###SOAP API
 
-You can use the `AriaCoreSoapClient` class to access Aria Systems Core SOAP API similar to the REST APIs, but you must pass a version number as well. 
+You can use the `AriaCoreSoapClient` class to access Aria Systems Core SOAP API similar to the REST APIs, but you must pass a version number as well.
 
 ```ruby
 api = AriaCoreSoapClient.new(CLIENT_NO, AUTH_KEY, '6.19')
