@@ -23,7 +23,8 @@ class AriaRestClient
 
         options.merge!(defaults)
 
-        result = self.class.post(self.url, :body => options)
+        headers = { 'Content-Type' => 'application/json' }
+        result = self.class.post(self.url, :body => options.to_json, :headers => headers)
 
         return result
     end
